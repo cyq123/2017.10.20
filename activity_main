@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/com.cyq.allprogresss"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.cyq.allprogress.progress.HorizonProgress
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="100dp"
+        android:max="100"
+        android:progress="80"
+        my:progress_color="#ff0000"
+        my:progress_color_second="#ff9999"
+        my:progress_value_color="#FF0000"
+        my:progress_value_size="15sp" />
+
+</RelativeLayout>
